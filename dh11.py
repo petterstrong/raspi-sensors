@@ -1,9 +1,8 @@
 import RPi.GPIO as gpio
 import time
 
-# DH11 说明书
+# DH11
 # https://pan.baidu.com/s/1jGgM2Ya
-# BCM 模式
 channel = 4
 data = []
 j = 0
@@ -62,7 +61,6 @@ for i in range(8):
 
 tmp = humidity + humidity_point + temperature + temperature_point
 
-# 校验温度、湿度 和校验值
 if check == tmp:
     print "temperature :", temperature, "*C, humidity :", humidity, "%"
   else:
