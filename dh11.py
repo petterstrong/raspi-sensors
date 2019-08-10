@@ -63,8 +63,8 @@ tmp = humidity + humidity_point + temperature + temperature_point
 
 if check == tmp:
     print "temperature :", temperature, "*C, humidity :", humidity, "%"
-  else:
+else:
     print "wrong"
     print "temperature :", temperature, "*C, humidity :", humidity, "% check :", check, ", tmp :", tmp
   
-  GPIO.cleanup()
+GPIO.cleanup()
