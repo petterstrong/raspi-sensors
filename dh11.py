@@ -24,9 +24,9 @@ while gpio.input(channel) == gpio.HIGH:
 
 while j < 40:
     k = 0
-    while GPIO.input(channel) == GPIO.LOW:
+    while gpio.input(channel) == gpio.LOW:
         continue
-    while GPIO.input(channel) == GPIO.HIGH:
+    while gpio.input(channel) == gpio.HIGH:
         k += 1
         if k > 100:
             break
@@ -67,4 +67,4 @@ else:
     print "wrong"
     print "temperature :", temperature, "*C, humidity :", humidity, "% check :", check, ", tmp :", tmp
   
-GPIO.cleanup()
+gpio.cleanup()
