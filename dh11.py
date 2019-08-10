@@ -29,7 +29,7 @@ while j < 40:
     while GPIO.input(channel) == GPIO.HIGH:
         k += 1
         if k > 100:
-        break
+            break
     if k < 8:
         data.append(0)
     else:
