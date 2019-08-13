@@ -14,3 +14,4 @@ if (int(ctl) == 0):
     gpio.setup(channel, gpio.OUT)
     gpio.output(channel, gpio.LOW)
 
+gpio.cleanup()
