@@ -3,7 +3,7 @@ import time
 
 # DH11
 # https://pan.baidu.com/s/1jGgM2Ya
-channel = 4
+channel = 21
 data = []
 j = 0
 
