@@ -1,4 +1,4 @@
-import RPI.GPIO as gpio
+import RPi.GPIO as gpio
 import sys
 
 channel = 4
