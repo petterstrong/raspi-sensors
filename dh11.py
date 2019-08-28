@@ -1,7 +1,7 @@
 import RPi.GPIO as gpio
 import time
 
-# DH11
+# DH11 temperature sensor
 # https://pan.baidu.com/s/1jGgM2Ya
 channel = 21
 data = []
